@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Weather</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div class="Weather">
+ <input
+ type="search"
+ list="suggestions"
+ class="weather__search"
+ placeholder="your city"
+ />
+ <datalist id="suggestions">
+ <option value="Udaipur"></option>
+ <option value="Chennai"></option>
+ <option value="Manipur"></option>
+ <option value="Chandigarh"></option>
+ >
+ <option value="Bengaluru"></option>
+ >
+ </datalist>
+ <div class="weather__today">
+ <div class="weather__details">
+ <h2 class="weaher__city">City</h2>
+ <p class="weather__day">Day</p>
+ <p id="p1">Time</p>
+ <p class="weather__calendar">7/24/2021</p>
+ <div class="weather__current">
+ <p class="weader__indicatoer weader__indicatoer--humiditiy">
+ <span class="humiditiy-value">50</span>%
+ </p>
+ <p class="weader__indicatoer weader__indicatoer--wind">
+ <span class="wind-value">West, 5</span>m/s
+ </p>
+ <p class="weader__indicatoer weader__indicatoer--pressure">
+ <span class="pressure-value">1050</span>hpa
+ </p>
+ </div>
+ </div>
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__image"
+ />
+ <div class="weather__temperature">
+ <span class="temperature-value">+25</span> &deg;C
+ </div>
+ </div>
+ <div class="weather__forecast">
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="pngtree-clear-sky-in-the-daytime-png-image_1699567.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ <article class="weather__forecast__item">
+ <img
+ src="clear-sky.jpg"
+ alt="clear-sky"
+ class="weather__forecast__icon"
+ />
+ <h3 class="weather__forecast__day">Day</h3>
+ <p class="weather_forecast__temperature">
+ <span class="value">+25</span> &deg;C
+ </p>
+ </article>
+ </div>
+ </div>
+ <script src="major.js"></script>
+ </body>
+</html>
